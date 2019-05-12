@@ -7,14 +7,11 @@
     border: 0;
     padding-right: 0;
     padding-left: 0;
+    font-family: "Exo", sans-serif;
 }
 
 .navbar .navbar-toggler {
     border: 0;
-}
-
-.navbar .navbar-brand {
-    font-weight: bold;
 }
 
 .navbar .navbar-nav a {
@@ -22,34 +19,167 @@
 }
 
 
+.home-page {
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+}
+
+/*----Tour----*/
+
+.tour-page {
+    background-image: url("../images/wall_mob.jpg");
+    height: 680px;
+    margin: 0;
+    padding: 0;
+
+}
+
+.page-title {
+    text-align: center;
+    padding-top: 30px;
+    font-family: "Exo", sans-serif;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.tour-image {
+    background-image: url("../images/pf_artists.jpg");
+    height: 340px;
+    margin-top: 60px;
+}
+
+.tour-list {
+    font-size: 16px;
+    list-style: none;
+}
+
+
+
+.tour-page ul {
+    padding-left: 0;
+    padding-right: 20px;
+    padding-top: 30px;
+    line-height: 30px;
+    font-size: 30px;
+    
+
+
+}
+
+.tour-page ul li {
+    padding: 20px 0;
+    font-family: "Exo", sans-serif;
+}
+
+.ticket-button {
+    font-weight: bold;
+    border-radius: 23px;
+   
+}
+
+
+/*----About Us----*/
+
+.member-card {
+    padding: 20px 0;
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+}
 
 .main-image {
-    background-image: url("../images/mob3.jpg");
+    background-image: url("../images/mob.jpg");
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    height: 500px;
-}
- 
-@media(min-width: 992px) {
-    .main-image {
-    background-image: url("../images/desktop_img.jpg");
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    height: 960px;
-}
+    height: 800px;
 }
 
-@media (min-width: 1281px) {
-    .main-image {
-    background-image: url("../images/desktop_img.jpg");
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    height: 100vh;
+.member-row {
+    padding: 50px 0;
+    background-color: #000;
 }
+
+
+
+/*----Gallery----*/
+
+.gallery-row {
+    padding-left: 0;
+    padding-top: 20;
+    margin: 0;
+    height: 600px;
+  
+}
+
+.member-card {
+    width: 360px;
+}
+
+
+@media(max-width: 991px) {
+
+    .ticket-button {
+        font-weight: bold;
+        border-radius: 23px;
+        width: 160px;
+        display: table;
+        margin: 0 auto;
+    }
+    .tour-image {
+        display: none;
+
+    }
+}
+
+@media(min-width: 992px) {
+    .main-image {
+        background-image: url("../images/cover_md.jpg");
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        height: 960px;
+    }
+
+    .ticket-button {
+        font-weight: bold;
+        border-radius: 23px;
+        width: 160px;
+        padding-right: 100px;
+    }
+    .tour-image {
+        display: none;
+    }
+}
+
+
+
+@media(min-width: 1281px) {
+    .main-image {
+        background-image: url("../images/desktop_img.jpg");
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        height: 100vh;
+    }
+    .tour-list {
+        font-size: 16px;
+        list-style: none;
+        margin-left: 50px;
+    }
+
+    .ticket-button {
+        font-weight: bold;
+        border-radius: 23px;
+        width: 160px;
+        padding-right: 100px;
+
+    }
+    .tour-image {
+        display: inline-block;
+    }
 }
