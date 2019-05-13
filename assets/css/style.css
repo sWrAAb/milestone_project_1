@@ -38,9 +38,10 @@
 .page-title {
     text-align: center;
     padding-top: 30px;
-    font-family: "Exo", sans-serif;
+    font-family: 'BioRhyme Expanded', serif;
     font-weight: bold;
     font-size: 2em;
+    background-color: rgba(255, 255, 255, 0.5);
 }
 
 .tour-image {
@@ -62,7 +63,7 @@
     padding-top: 30px;
     line-height: 30px;
     font-size: 30px;
-    
+
 
 
 }
@@ -75,7 +76,7 @@
 .ticket-button {
     font-weight: bold;
     border-radius: 23px;
-   
+
 }
 
 
@@ -99,9 +100,16 @@
 
 .member-row {
     padding: 50px 0;
-    background-color: #000;
+    background-image: url("/assets/images/member.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
+.card-img-top {
+    width: 100%;
+    height: 360px;
+
+}
 
 
 /*----Gallery----*/
@@ -110,13 +118,46 @@
     padding-left: 0;
     padding-top: 20;
     margin: 0;
-    height: 600px;
-  
+    height: 800px;
+    background-image: url("https://images.pexels.com/photos/1092364/pexels-photo-1092364.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 
-.member-card {
-    width: 360px;
+.page-title-gallery {
+
+    text-align: center;
+    padding-top: 30px;
+    font-family: 'BioRhyme Expanded', serif;
+    font-weight: bold;
+    font-size: 2em;
+
 }
+
+#mycarousel {
+     margin: 30px 0;
+    padding: 0;
+    width: 350px;
+    height: 350px;
+    border: solid black 1px;
+     
+}
+
+#mycarousel img {
+    width: 350px;
+    height: 350px;
+     
+    
+}
+
+.carousel-slide {
+    margin: 30px 0;
+    padding: 0;
+}
+
+
+
 
 
 @media(max-width: 991px) {
@@ -153,6 +194,13 @@
     .tour-image {
         display: none;
     }
+    .gallery {
+        background-image: url("/assets/images/image_3.jpg");
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
 }
 
 
@@ -181,5 +229,13 @@
     }
     .tour-image {
         display: inline-block;
+    }
+
+    .gallery {
+        background-image: url("/assets/images/image_3.jpg");
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
     }
 }
