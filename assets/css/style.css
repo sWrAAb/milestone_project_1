@@ -185,7 +185,7 @@ h4 {
 
 .member-row {
     padding: 50px 0;
-    background-image: url("/assets/images/member.jpeg");
+    background-image: url("../images/member.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -204,7 +204,7 @@ h4 {
     padding-top: 20;
     margin: 0;
     height: 860px;
-    background-image: url("/assets/images/gallery_wall.jpeg");
+    background-image: url("../images/gallery_wall.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     border-top: groove 4px;
@@ -396,7 +396,7 @@ h4 {
     .gallery {
         margin: 0;
         padding: 0;
-        background-image: url("/assets/images/image_3.jpg");
+        background-image: url("../images/image_3.jpg");
         opacity: 0.5;
         -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -449,7 +449,7 @@ h4 {
     }
 
     .gallery {
-        background-image: url("/assets/images/image_3.jpg");
+        background-image: url("../images/image_3.jpg");
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
