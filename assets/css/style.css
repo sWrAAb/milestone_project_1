@@ -30,7 +30,7 @@
 
 h4 {
     font-family: "Exo", sans-serif;
-    color: #7F7F7F;
+    color: #FF6161;
     margin: 0;
     padding-left: 30px;
     padding-top: 20px;
@@ -138,7 +138,7 @@ h4 {
 }
 
 .ticket-button {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: larger;
     text-align: center;
     letter-spacing: 1px;
@@ -212,6 +212,7 @@ h4 {
 
 }
 
+
 .page-title-gallery {
 
     text-align: center;
@@ -269,7 +270,7 @@ h4 {
 .media-row {
 
     height: 1000px;
-    background-color: #E1E1E1;
+    background-color: #fff;
     background-repeat: no-repeat;
     background-size: cover;
     border-top: groove 4px;
@@ -283,7 +284,72 @@ h4 {
     padding-top: 30px;
 }
 
+/*----/Media----*/
 
+.channel-links {
+      margin-bottom: 30px;
+      padding: 0;
+}
+
+/*----Hire Us----*/
+
+.hireus-container {
+    background-image: url("https://images.pexels.com/photos/574011/pexels-photo-574011.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 900px;
+    margin: 0;
+    padding: 0;
+}
+
+.hire-us-text h3 {
+    margin: 0;
+    padding-top: 30px;
+    padding-left: 30px;
+    font-family: "Exo", sans-serif;
+    font-size: 2em;
+    
+}
+/*----/Hire Us----*/
+
+
+/*----Footer----*/
+
+.footer-text {
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    
+}
+
+.social-icons-footer {
+    padding-top: 20px;
+    height: 20px;
+    margin: 0;
+
+}
+
+.social-icon-footer {
+    height: 30px;
+    padding: 10px;
+    color: #e5e5e5;
+}
+
+.social-icon-footer {
+    -webkit-transition: all 1s ease-out;
+    -moz-transition: all 1s ease-out;
+    -o-transition: all 1s ease-out;
+    -ms-transition: all 1s ease-out;
+    transition: all 1s ease-out;
+}
+
+.social-icon-footer:hover {
+    color: #FF2F2F;
+    -webkit-transition: all 1s ease-in;
+    -moz-transition: all 1s ease-in;
+    -o-transition: all 1s ease-in;
+    -ms-transition: all 1s ease-in;
+    transition: all 1s ease-in;
+}
 
 @media(max-width: 991px) {
 
@@ -331,6 +397,7 @@ h4 {
         margin: 0;
         padding: 0;
         background-image: url("/assets/images/image_3.jpg");
+        opacity: 0.5;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
