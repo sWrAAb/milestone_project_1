@@ -1,6 +1,7 @@
 /*----Navbar----*/
 
 .navbar {
+    color: #fafafa;
     margin-bottom: 0;
     width: 100%;
     background-color: #000;
@@ -8,6 +9,8 @@
     padding-right: 0;
     padding-left: 0;
     font-family: "Exo", sans-serif;
+    font-size: 1.3em;
+
 }
 
 .navbar .navbar-toggler {
@@ -18,6 +21,54 @@
     font-weight: bold;
 }
 
+/*----/Navbar----*/
+
+.online-column {
+    margin: 0;
+    padding: 0;
+}
+
+h4 {
+    font-family: "Exo", sans-serif;
+    color: #7F7F7F;
+    margin: 0;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+
+/*----Social Icons----*/
+
+.social-icons {
+    padding-top: 20px;
+    height: 20px;
+    margin: 0;
+
+}
+
+.social-icon {
+    height: 30px;
+    padding: 10px;
+    color: #E1E1E1;
+}
+
+.social-icon {
+    -webkit-transition: all 1s ease-out;
+    -moz-transition: all 1s ease-out;
+    -o-transition: all 1s ease-out;
+    -ms-transition: all 1s ease-out;
+    transition: all 1s ease-out;
+}
+
+.social-icon:hover {
+    color: #FF2F2F;
+    -webkit-transition: all 1s ease-in;
+    -moz-transition: all 1s ease-in;
+    -o-transition: all 1s ease-in;
+    -ms-transition: all 1s ease-in;
+    transition: all 1s ease-in;
+}
+
+/*----/Social Icons----*/
 
 .home-page {
     margin: 0;
@@ -29,7 +80,7 @@
 
 .tour-page {
     background-image: url("../images/wall_mob.jpg");
-    height: 680px;
+    height: 740px;
     margin: 0;
     padding: 0;
 
@@ -38,19 +89,32 @@
 .page-title {
     text-align: center;
     padding-top: 30px;
-    font-family: 'BioRhyme Expanded', serif;
+    font-family: "BioRhyme Expanded", sans-serif;
     font-weight: bold;
     font-size: 2em;
     background-color: rgba(255, 255, 255, 0.5);
 }
 
+.aboutus-container {
+    padding-top: 10px;
+}
+
 .tour-image {
     background-image: url("../images/pf_artists.jpg");
     height: 340px;
+    background-size: cover;
+    background-repeat: no-repeat;
     margin-top: 60px;
 }
 
-.tour-list {
+.tour-list-city {
+
+    font-size: 16px;
+    list-style: none;
+}
+
+.tour-list-date {
+
     font-size: 16px;
     list-style: none;
 }
@@ -74,11 +138,30 @@
 }
 
 .ticket-button {
-    font-weight: bold;
-    border-radius: 23px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: larger;
+    text-align: center;
+    letter-spacing: 1px;
+    border: none;
+    background: #404040;
+    color: #ffffff;
+    font-weight: 100;
+    padding: 20px;
+    text-transform: uppercase;
+    border-radius: 6px;
+    display: inline-block;
 
 }
 
+.ticket-button:hover {
+    color: #404040;
+    font-weight: 700;
+    letter-spacing: 4px;
+    background: none;
+    -webkit-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+    transition: all 0.3s ease 0s;
+}
 
 /*----About Us----*/
 
@@ -96,6 +179,8 @@
     -o-background-size: cover;
     background-size: cover;
     height: 800px;
+    border-bottom: groove 4px;
+    border-color: #fafafa;
 }
 
 .member-row {
@@ -118,17 +203,20 @@
     padding-left: 0;
     padding-top: 20;
     margin: 0;
-    height: 800px;
-    background-image: url("https://images.pexels.com/photos/1092364/pexels-photo-1092364.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    height: 860px;
+    background-image: url("/assets/images/gallery_wall.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
+    border-top: groove 4px;
+    border-color: #fafafa;
 
 }
 
 .page-title-gallery {
 
     text-align: center;
-    padding-top: 30px;
+    padding-top: 40px;
+    padding-bottom: 20px;
     font-family: 'BioRhyme Expanded', serif;
     font-weight: bold;
     font-size: 2em;
@@ -136,19 +224,19 @@
 }
 
 #mycarousel {
-     margin: 30px 0;
+    margin: 30px 0;
     padding: 0;
-    width: 350px;
+    width: 100vw;
     height: 350px;
     border: solid black 1px;
-     
+
 }
 
 #mycarousel img {
-    width: 350px;
-    height: 350px;
-     
-    
+    width: 100vw;
+    height: 400px;
+
+
 }
 
 .carousel-slide {
@@ -156,7 +244,44 @@
     padding: 0;
 }
 
+/*----Gallery Images----*/
 
+.gallery-image-row-1 {
+    display: inline;
+    display: flex;
+    padding: 30px;
+    max-height: 300px;
+    margin-bottom: 30px;
+
+
+}
+
+.gallery-image-row-2 {
+    display: inline;
+    display: flex;
+    padding: 30px;
+    max-height: 300px;
+    margin-top: 20px;
+}
+
+/*----Media----*/
+
+.media-row {
+
+    height: 1000px;
+    background-color: #E1E1E1;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top: groove 4px;
+    border-color: #fafafa;
+}
+
+.media-text {
+    font-family: "BioRhyme Expanded", sans-serif;
+    padding-left: 30px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
 
 
 
@@ -164,15 +289,22 @@
 
     .ticket-button {
         font-weight: bold;
-        border-radius: 23px;
-        width: 160px;
+        border-radius: 8px;
+
         display: table;
         margin: 0 auto;
     }
     .tour-image {
         display: none;
-
     }
+
+
+    #mycarousel img {
+        width: 100vw;
+        height: 600px;
+    }
+    
+    
 }
 
 @media(min-width: 992px) {
@@ -187,22 +319,42 @@
 
     .ticket-button {
         font-weight: bold;
-        border-radius: 23px;
+        border-radius: 8px;
         width: 160px;
         padding-right: 100px;
+        text-align: center;
     }
     .tour-image {
         display: none;
     }
     .gallery {
+        margin: 0;
+        padding: 0;
         background-image: url("/assets/images/image_3.jpg");
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
     }
-}
 
+    .gallery-images {
+        display: none;
+    }
+
+
+    .tour-list-city {
+        margin-left: 100px;
+        font-size: 16px;
+        list-style: none;
+    }
+
+    .tour-list-date {
+        margin-left: 50px;
+        font-size: 16px;
+        list-style: none;
+    }
+
+}
 
 
 @media(min-width: 1281px) {
@@ -222,9 +374,7 @@
 
     .ticket-button {
         font-weight: bold;
-        border-radius: 23px;
-        width: 160px;
-        padding-right: 100px;
+        justify-content: center;
 
     }
     .tour-image {
@@ -238,4 +388,23 @@
         -o-background-size: cover;
         background-size: cover;
     }
+
+    .gallery-image img {
+        height: 300px;
+        width: 400px;
+        margin-left: 30px;
+    }
+
+    .tour-list-city {
+        margin-left: 100px;
+        font-size: 16px;
+        list-style: none;
+    }
+
+    .tour-list-date {
+        margin-left: 50px;
+        font-size: 16px;
+        list-style: none;
+    }
+
 }

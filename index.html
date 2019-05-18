@@ -8,8 +8,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
-    <link href="https://fonts.googleapis.com/css?family=Exo:400,700" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=BioRhyme+Expanded:400,700|Exo:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=BioRhyme+Expanded:400,700|Exo:400,700|Ubuntu&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Document</title>
 </head>
@@ -30,22 +29,46 @@
                     <li class="nav-item mr-2"><a class="nav-link" href="/">About Us</a></li>
                     <li class="nav-item mr-2"><a class="nav-link" href="/">Gallery</a></li>
                     <li class="nav-item mr-2"><a class="nav-link" href="/">Media</a></li>
-                    <li class="nav-item mr-2"><a class="nav-link" href="/">Social</a></li>
                     <li class="nav-item mr-2"><a class="nav-link" href="/">Hire Us!</a></li>
                 </ul>
             </div>
-
-
-    </div>
-    </nav>
+        </nav>
     </div>
 
     <!--........................./Navbar...-->
 
 
+
+
+
+
     <div class="container-fluid">
         <div class="row">
             <div class="col main-image">
+                <div class="col-12 online-column">
+                    <h4>Follow us online</h4>
+                </div>
+
+                <!--.........................Social icons...-->
+
+                <div class="col-12 social-icons">
+
+                    <a href="https://www.facebook.com" target="blank">
+                        <i class="fab fa-facebook fa-2x social-icon"></i>
+                    </a>
+
+                    <a href="https://twitter.com" target=b lank "">
+                        <i class="fab fa-twitter-square fa-2x social-icon"></i>
+                    </a>
+                    <a href="https://www.instagram.com" target="blank">
+                        <i class="fab fa-instagram fa-2x social-icon"></i>
+                    </a>
+                    <a href="https://www.snapchat.com" target="blank">
+                        <i class="fab fa-snapchat-square fa-2x social-icon"></i>
+                    </a>
+
+                </div>
+                <!--........................./Social icons...-->
 
             </div>
         </div>
@@ -61,7 +84,7 @@
                 </div>
                 <div class="col-6 col-md-6 col-lg-4 ">
 
-                    <ul class="tour-list">
+                    <ul class="tour-list-city">
                         <li>Cork</li>
                         <li>Dublin</li>
                         <li>Galway</li>
@@ -72,7 +95,7 @@
                     </ul>
                 </div>
                 <div class="col-6  col-md-6 col-lg-3 ">
-                    <ul class="tour-list">
+                    <ul class="tour-list-date">
                         <li>21/05/2019</li>
                         <li>24/05/2019</li>
                         <li>27/05/2019</li>
@@ -84,17 +107,20 @@
                 </div>
                 <div class="col-4  tour-image "></div>
             </div>
-            <div class="col-3 offset-2 ticket-button">
-                <button type="button" class="btn btn-dark ticket-button">Tickets</button>
+            <div class="col-12 justify-content-center ticket-button-row">
+                <button type="button" class="btn btn-primary ticket-button offset-lg-2">Tickets</button>
             </div>
-            <div class="row tour-title">
-                <div class="col-12 ">
-                    <h2 class="page-title uppercase">About Us</h2>
+            <div class="container-fluid aboutus-container">
+                <div class="row tour-title">
+                    <div class="col-12 ">
+                        <h2 class="page-title uppercase">About Us</h2>
+                    </div>
                 </div>
             </div>
         </div>
+    </div>
 
-        <!--........................./Tour...-->
+    <!--........................./Tour...-->
 
     </div>
 
@@ -177,7 +203,7 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-12 ">
+            <div class="col-12 d-lg-none ">
                 <div id="mycarousel" class="carousel-slide mx-auto " data-ride="carousel">
                     <ul class="carousel-indicators">
                         <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
@@ -198,22 +224,119 @@
                         <div class="carousel-item">
                             <img src="/assets/images/image_4.jpg" alt="image">
                         </div>
+                        <div class="carousel-item">
+                            <img src="/assets/images/image_5.jpg" alt="image">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="/assets/images/image_6.jpg" alt="image">
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
 
+        <div class="row ">
+            <div class="col d-none d-lg-block gallery-images">
 
-        <!--........................./Gallery...-->
+                <div class="gallery-image-row-1">
+                    <div class="col-4 gallery-image">
+                        <img src="/assets/images/image_1.jpg" class="gallery_images_img" alt="Image"></a>
+                    </div>
+                    <div class="col-4 gallery-image">
+                        <img src="/assets/images/image_2.jpg" class="gallery_images_img" alt="Image"></a>
+                    </div>
+                    <div class="col-4 gallery-image">
+                        <img src="/assets/images/image_3.jpg" class="gallery_images_img" alt="Image"></a>
+                    </div>
+                </div>
+                <div class="gallery-image-row-2">
+                    <div class="col-4 gallery-image">
+                        <img src="/assets/images/image_4.jpg" class="gallery_images_img" alt="Image"></a>
+                    </div>
+                    <div class="col-4 gallery-image">
+                        <img src="/assets/images/image_5.jpg" class="gallery_images_img" alt="Image"></a>
+                    </div>
+                    <div class="col-4 gallery-image">
+                        <img src="/assets/images/image_6.jpg" class="gallery_images_img" alt="Image"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="col-sm-4">
-        <h2 class="social-section">Follow us online!</h2>
-        <ul class="list-inline social-links">
-            <li><a target="_blank" href="https://en-gb.facebook.com/TheMonkees/"><i class="fa fa-facebook"></i></a> </li>
-            <li><a target="_blank" href="https://twitter.com/TheMonkees?lang=en"><i class="fa fa-twitter"></i></a> </li>
-            <li><a target="_blank" href="https://www.youtube.com/user/themonkees"><i class="fa fa-youtube"></i></a> </li>
-        </ul>
     </div>
+
+    <!--........................./Gallery...-->
+
+
+    <!--.........................Media...-->
+<media>
+    <div class="container-fluid  media-row">
+        <div class="row tour-title">
+            <div class="col-12 ">
+                <h2 class="page-title-gallery uppercase">Media</h2>
+            </div>
+        </div>
+
+        <div class="col-12">
+            <h5 class="media-text">Watch official videos here</h5>
+        </div>
+        <div class="row">
+            <div class="col-12 col-md-6 col-lg-3">
+                <iframe width="500" height="300" src="https://www.youtube.com/embed/YR5ApYxkU-U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                   <p>Your browser does not support iframes.</p>
+               </iframe>
+            </div>
+            <div class="col-12 d-none d-md-block col-md-6 col-lg-3 ">
+                <iframe width="500" height="300" src="https://www.youtube.com/embed/fn1R-5p_j5c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                   <p>Your browser does not support iframes.</p>
+                </iframe>
+            </div>
+            <div class="col-12 d-none d-md-block col-md-6 col-lg-3">
+                <iframe width="500" height="300" src="https://www.youtube.com/embed/T4AnBssEQ0A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                   <p>Your browser does not support iframes.</p>
+                </iframe>
+            </div>
+            <div class="col-12 d-none d-md-block col-md-6 col-lg-3">
+                <iframe width="500" height="300" src="https://www.youtube.com/embed/-0kcet4aPpQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                   <p>Your browser does not support iframes.</p>
+                </iframe>
+            </div>
+
+
+            <div class="col-12">
+                <h5 class="media-text">Watch our live shows here</h5>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-3">
+                <iframe width="500" height="300" src="https://www.youtube.com/embed/A-lu_1Fh_ts" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                    <p>Your browser does not support iframes.</p>
+                </iframe>
+            </div>
+            
+            <div class="col-12 d-none d-md-block col-md-6 col-lg-3">
+                <iframe width="500" height="300" src="https://www.youtube.com/embed/CtZeXpBxXeA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                   <p>Your browser does not support iframes.</p>
+               </iframe>
+            </div>
+            <div class="col-12 d-none d-md-block col-md-6 col-lg-3">
+               <iframe width="500" height="300" src="https://www.youtube.com/embed/2qkhRgQiF4U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                   <p>Your browser does not support iframes.</p>
+               </iframe>
+            </div>
+            <div class="col-12 d-none d-md-block col-md-6 col-lg-3">
+                <iframe width="500" height="300" src="https://www.youtube.com/embed/tZCpOu7YOrk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                   <p>Your browser does not support iframes.</p>
+               </iframe>
+            </div>
+
+        </div>
+
+    </div>
+</media>
+
+    <!--........................./Media...-->
+
+    
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
