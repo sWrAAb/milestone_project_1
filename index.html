@@ -17,14 +17,14 @@
     <header>
         <!--.........................Navbar...-->
 
-
+        <a name="Home"></a>
         <div class="container-fluid home-page">
             <nav class="navbar navbar-dark navbar-expand-sm text-uppercase">
                 <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul class="navbar-nav mr-auto">
-                        <li class="nav-item ml-2"><a class="nav-link" href="/">Home</a></li>
+                        <li class="nav-item ml-2"><a class="nav-link" href="#Home">Home</a></li>
                         <li class="nav-item ml-2"><a class="nav-link" href="#Tour">Tour</a></li>
                         <li class="nav-item ml-2"><a class="nav-link" href="#AboutUs">About Us</a></li>
                         <li class="nav-item ml-2"><a class="nav-link" href="#Gallery">Gallery</a></li>
@@ -77,6 +77,9 @@
 
     <section>
         <!--.........................Tour...-->
+        <a href="#Home">
+            <p class="return-to-top-dark">Top</p>
+        </a>
         <div class="row tour-title">
             <div class="container-fluid tour-page">
                 <div class="row ">
@@ -84,7 +87,7 @@
                         <a name="Tour"></a>
                         <h2 class="page-title uppercase">Pink Floyd Tour</h2>
                     </div>
-                    <div class="col-6 col-md-6 col-lg-4 ">
+                    <div class="col-6 col-md-6 col-xl-4 ">
 
                         <ul class="tour-list-city">
                             <li>Cork</li>
@@ -96,7 +99,7 @@
 
                         </ul>
                     </div>
-                    <div class="col-6  col-md-6 col-lg-3 ">
+                    <div class="col-6  col-md-6 col-xl-3 ">
                         <ul class="tour-list-date">
                             <li>21/05/2019</li>
                             <li>24/05/2019</li>
@@ -107,10 +110,10 @@
                         </ul>
 
                     </div>
-                    <div class="col-4  tour-image "></div>
+                    <div class="col-4 d-none d-xl-block tour-image "></div>
                 </div>
-                <div class="col-12 justify-content-center ticket-button-row">
-                    <button type="button" class="btn dark ticket-button offset-lg-2">Tickets</button>
+                <div class="col-3 ticket-button-row">
+                    <button type="button" class="btn ticket-button">Tickets</button>
                 </div>
                 <div class="container-fluid aboutus-container">
                     <div class="row tour-title">
@@ -128,7 +131,9 @@
         </div>
 
         <!--.........................Member...-->
-
+        <a href="#Home">
+            <p class="return-to-top">Home</p>
+        </a>
         <div class="container-fluid member-row">
             <div class="row">
                 <div class="col-12 col-md-6 col-lg-4 member-card">
@@ -199,7 +204,11 @@
 
         <!--.........................Gallery...-->
         <gallery>
+
             <div class="container-fluid  gallery-row">
+                <a href="#Home">
+                    <p class="return-to-top">Home</p>
+                </a>
                 <div class="row tour-title">
                     <div class="col-12 ">
                         <a name="Gallery"></a>
@@ -243,7 +252,6 @@
 
                 <div class="row ">
                     <div class="col d-none d-xl-block gallery-images">
-
                         <div class="gallery-image-row-1">
                             <div class="col-4 gallery-image">
                                 <img src="assets/images/image_1.jpg" class="gallery_images_img" alt="Image"></a>
@@ -277,8 +285,12 @@
         <!--.........................Media...-->
         <media>
             <div class="container-fluid  media-row">
+
                 <div class="row tour-title">
                     <div class="col-12 ">
+                        <a href="#Home">
+                            <p class="return-to-top-dark">Home</p>
+                        </a>
                         <a name="Media"></a>
                         <h2 class="page-title-media uppercase">Media</h2>
                     </div>
@@ -364,6 +376,9 @@
 
         <contact>
             <div class="container-fluid hireus-container">
+                <a href="#Home">
+                    <p class="return-to-top">Home</p>
+                </a>
                 <div class="row tour-title">
                     <div class="col-12 ">
                         <a name="HireUs"></a>
@@ -375,7 +390,7 @@
                     </br>
                     <h3 class="hire-us-text">Contact us now!</h3>
                 </div>
-                <div class="container ">
+                <div class="container form-container">
                     <form action="/action_page.php">
                         <div class="form-group">
                             <label for="email">Full name</label>
@@ -385,14 +400,10 @@
                             <label for="pwd">Email</label>
                             <input type="email" class="form-control" id="email" placeholder="Email" name="email" required>
                         </div>
-                        <label for="partydetails">Party details</label>
-                        <textarea rows="5" class="form-control" name="partydetails" id="partydetails" placeholder="Party details"></textarea>
+                        <label for="partydetails">Details</label>
+                        <textarea rows="4" class="form-control" name="partydetails" id="partydetails" placeholder="Details"></textarea>
 
-                        <div class="form-group form-check">
-                            <label class="form-check-label">
-        <input class="form-check-input" type="checkbox" name="remember"> Remember me
-      </label>
-                        </div>
+
                         <button type="submit" class="btn ticket-button">Submit</button>
                     </form>
                 </div>
@@ -401,59 +412,64 @@
     </section>
 
     <!--........................./Hire Us!...-->
+    
+    <!--.........................Footer...-->
 
 
     <footer class="container-fluid">
         <div id="footer-details" class="row">
-            <div class="col-12">
-            </div>
             <div class="col-12 footer-text">
-                <p>Join our growing fan comunity?</p>
-                <p><a href="/login" data-toggle='modal' data-target='#signUpModal'>Click Here to join now</a></p>
-            </div>
-            <div class="col-4 social-icons-footer">
+                 <div class="col-12 social-icons-footer">
+                <p class="fan-club-text">Join our growing fan comunity!</p>
+                <p><a href="/login" data-toggle="modal" data-target="#signUpModal">Click Here to join now</a></p>
 
-                <a href="https://www.facebook.com" target="blank">
-                        <i class="fab fa-facebook fa-2x social-icon-footer justify-content-center"></i>
-                    </a>
+                <div class="col-12 social-icons-footer">
 
-                <a href="https://twitter.com" target="blank">
-                        <i class="fab fa-twitter-square fa-2x social-icon-footer justify-content-center"></i>
-                    </a>
-                <a href="https://www.instagram.com" target="blank">
-                        <i class="fab fa-instagram fa-2x social-icon-footer justify-content-center"></i>
-                    </a>
-                <a href="https://www.snapchat.com" target="blank">
-                        <i class="fab fa-snapchat-square fa-2x social-icon-footer justify-content-center"></i>
+                    <a href="https://www.facebook.com" target="blank">
+                        <i class="fab fa-facebook fa-2x social-icon"></i>
                     </a>
 
+                    <a href="https://twitter.com" target=b lank "">
+                        <i class="fab fa-twitter-square fa-2x social-icon"></i>
+                    </a>
+                    <a href="https://www.instagram.com" target="blank">
+                        <i class="fab fa-instagram fa-2x social-icon"></i>
+                    </a>
+                    <a href="https://www.snapchat.com" target="blank">
+                        <i class="fab fa-snapchat-square fa-2x social-icon"></i>
+                    </a>
+
+                </div>
             </div>
         </div>
     </footer>
-
+ <!--........................./Footer...-->
+ 
     <!--.........................Modal...-->
+
 
     <div class="modal fade" id="signUpModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                    <h4 class="modal-title" id="myModalLabel">Sign Up to the Fan Club</h4>
+                    <h4 class="modal-title" id="signUpModal">Sign Up to the Fan Club</h4>
                 </div>
                 <div class="modal-body">
-                    <form action="fan-club-sign-up.html">
+                    <form action="fan-club.html">
                         <div class="form-group">
                             <label for="email">Email address</label>
                             <input type="email" class="form-control" id="email" placeholder="Email" required>
-                            <p class="help-block">Your contact information is safe with us!</p>
+                            <p class="help-block">We'll never share your email address with anyone</p>
                         </div>
-                        <button type="submit" class="btn btn-success">Sign Up!</button>
+                        <button type="submit" class="btn ticket-button">Sign Up!</button>
                     </form>
                 </div>
             </div>
         </div>
     </div>
 
+ 
     <!--........................./Modal...-->
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

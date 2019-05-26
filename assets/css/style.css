@@ -179,8 +179,9 @@ h4 {
 }
 
 .ticket-button {
+    font-weight: bold; 
+    margin: 20px 0;
     height: 60px;
-    
     font-size: 24px;
     font-family: 'Roboto', sans-serif;
     text-align: center;
@@ -191,12 +192,12 @@ h4 {
 }
 
 .ticket-button:hover {
-    
+
+    font-size: 30px;
     font-weight: 700;
-    font-size: 24px;
-    background-color: #E8E8E8;
-    height: 80px;
-    width: 200px;
+    background-color: #fff;
+    color: #252322;
+    
     letter-spacing: 4px;
     -webkit-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
     -moz-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
@@ -207,12 +208,17 @@ h4 {
     font-size: 14px;
     font-weight: 700;
     background-color: #DEDDDD;
-     color: #252322;
+    color: #252322;
     width: 140px;
     letter-spacing: 4px;
     -webkit-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
     -moz-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
-    transition: all 1s ease 0s;}
+    transition: all 1s ease 0s;
+}
+
+.ticket-button-row {
+    padding-left: 120px;
+}
 
 /*----About Us----*/
 
@@ -238,14 +244,25 @@ h4 {
 
 }
 
+.back-to-top {
+    font-family: "Roboto", sans-serif;
+    color: #000;
+    font-size: 20px;
+}
+
+.return-to-top-dark {
+    font-family: "Roboto", sans-serif;
+    color: #fafafa;
+    font-size: 20px;
+}
 
 /*----Gallery----*/
 
 .gallery-row {
     padding-left: 0;
-    padding-top: 20;
+    padding-top: 20px;
+    padding-bottom: 20px;
     margin: 0;
-    height: 860px;
     background-image: url("../images/gallery_wall.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -255,7 +272,7 @@ h4 {
 .page-title-gallery {
 
     text-align: center;
-    padding-top: 40px;
+    padding: 20px 0;
     font-family: 'BioRhyme Expanded', serif;
     font-weight: bold;
     font-size: 2em;
@@ -279,7 +296,7 @@ h4 {
 }
 
 .carousel-slide {
-    margin: 30px 0;
+    margin: 0;
     padding: 0;
 }
 
@@ -288,8 +305,8 @@ h4 {
 .gallery-image-row-1 {
     display: inline;
     display: flex;
-    padding: 30px;
-    margin-bottom: 30px;
+    padding: 0;
+    margin: 0;
 
 
 }
@@ -297,8 +314,8 @@ h4 {
 .gallery-image-row-2 {
     display: inline;
     display: flex;
-    padding: 30px;
-    margin-top: 20px;
+    padding: 0;
+    margin: 0;
 }
 
 /*----Media----*/
@@ -315,7 +332,7 @@ h4 {
 
 .media-row {
 
-    height: 1080px;
+
     background-image: url("https://images.pexels.com/photos/580679/pexels-photo-580679.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
     background-repeat: no-repeat;
     background-size: cover;
@@ -348,58 +365,47 @@ h4 {
 /*----Hire Us----*/
 
 .hireus-container {
-    background-image: url("../images/wedding.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 900px;
     margin: 0;
     padding: 0;
+    background-color: #FFECEC;
 }
 
-.hire-us-text h3 {
+.hire-us-text {
     margin: 0;
+    text-align: center;
     padding-top: 30px;
     padding-left: 30px;
     font-family: "Exo", sans-serif;
-    font-size: 2em;
-
+    font-size: 1.2em;
 }
+
+
 
 /*----/Hire Us----*/
 
 /*----Footer----*/
 
-footer {
-    margin: 0;
-    padding: 0;
-
+.fan-club-text {
+    color: #fafafa;
 }
 
 .footer-text {
+    background-color: #333333;
     color: #7A7A7A;
     text-align: center;
-    font-size: 22px;
+    font-size: 26px;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     padding: 50px 0;
 }
 
 
-.social-icons-footer {
-
-    padding-top: 20px;
-    height: 20px;
+.social-icon {
     margin: 0;
-}
-
-.social-icon-footer {
-    display: inline-block;
     height: 30px;
-    padding: 10px;
-    color: #000;
-}
-
-.social-icon-footer {
+    padding-left: 30px;
+    padding-top: 15px;
+    color: #E1E1E1;
     -webkit-transition: all 1s ease-out;
     -moz-transition: all 1s ease-out;
     -o-transition: all 1s ease-out;
@@ -407,41 +413,20 @@ footer {
     transition: all 1s ease-out;
 }
 
-.social-icon-footer:hover {
+.social-icon:hover {
     color: #FF2F2F;
-    -webkit-transition: all 1s ease-in;
-    -moz-transition: all 1s ease-in;
-    -o-transition: all 1s ease-in;
-    -ms-transition: all 1s ease-in;
-    transition: all 1s ease-in;
+    -webkit-transition: all .5s ease-in;
+    -moz-transition: all .5s ease-in;
+    -o-transition: all .5s ease-in;
+    -ms-transition: all .5s ease-in;
+    transition: all .5s ease-in;
 }
 
-@media(max-width: 991px) {
-
-    .ticket-button {
-        font-weight: bold;
-        border-radius: 8px;
-
-        display: table;
-        margin: 0 auto;
-    }
-    .tour-image {
-        display: none;
-    }
-
-    .tour-title {
-        width: 100vw;
-        margin: 0;
-        padding: 0;
-    }
-
-    #mycarousel img {
-        width: 100vw;
-        height: 600px;
-    }
+/*----/Footer----*/
 
 
-}
+
+/*----Media Queries----*/
 
 @media(min-width: 992px) {
     .main-image {
@@ -453,13 +438,9 @@ footer {
         height: 960px;
     }
 
-    .ticket-button {
-        font-weight: bold;
-        border-radius: 8px;
-        width: 160px;
-         font-size: 2em;
-        text-align: center;
-    }
+     
+
+
     .tour-image {
         display: none;
     }
@@ -511,6 +492,11 @@ footer {
         height: 600px;
     }
 
+   
+    .form-container {
+    width: 50%;
+}
+
 }
 
 @media(min-width: 1281px) {
@@ -528,15 +514,21 @@ footer {
         margin-left: 50px;
     }
 
-    .ticket-button {
-        font-weight: bold;
-        justify-content: center;
-
-    }
+    
+    
     .tour-image {
         display: inline-block;
     }
 
+    .gallery-row {
+        padding-left: 20px;
+        padding-top: 20px;
+        margin: 0;
+        height: 900px;
+        background-image: url("../images/gallery_wall.jpeg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
     .gallery {
         background-image: url("../images/image_3.jpg");
         -webkit-background-size: cover;
@@ -573,8 +565,8 @@ footer {
     }
 
     .media-row {
-
-        height: 1080px;
+       
+        padding-bottom: 20px ;
         background-image: url("https://images.pexels.com/photos/580679/pexels-photo-580679.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
         background-repeat: no-repeat;
         background-size: cover;
@@ -583,12 +575,18 @@ footer {
         height: 600;
     }
     .hireus-container {
-    background-image: url("../images/wedding.jpeg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 900px;
-    margin: 0;
-    padding: 0;
-}
-.form-group {}
+        background-image: url("../images/wedding.jpeg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 900px;
+        margin: 0;
+        padding: 0;
+    }
+    .form-group {
+        max-width: 100%;
+    }
+
+
+
+
 }
