@@ -21,6 +21,7 @@
     font-weight: bold;
 }
 
+
 /*----/Navbar----*/
 
 .main-image {
@@ -66,8 +67,13 @@ h4 {
     font-family: "Exo", sans-serif;
     color: #FF6161;
     margin: 0;
-    padding-left: 60px;
+    padding-left: 40px;
     padding-top: 20px;
+}
+
+h5 {
+    font-family: "Roboto", sans-serif;
+
 }
 
 /*----Social Icons----*/
@@ -192,8 +198,30 @@ h4 {
     font-weight: 700;
     background-color: #fff;
     color: #252322;
-
     letter-spacing: 4px;
+    -webkit-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+    transition: all 1s ease 0s;
+}
+
+.ticket-button-modal {
+    font-weight: bold;
+    height: 60px;
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    letter-spacing: 1px;
+    border: 1px solid black;
+    border-radius: 2px;
+
+}
+
+.ticket-button-modal:hover {
+    font-size: 30px;
+    font-weight: 700;
+    background-color: #F3F3F3;
+    color: #252322;
+    letter-spacing: 2px;
     -webkit-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
     -moz-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
     transition: all 1s ease 0s;
@@ -239,14 +267,10 @@ h4 {
 
 }
 
-.back-to-top {
-    font-family: "Roboto", sans-serif;
-    color: #000;
-    font-size: 20px;
-}
-
 .return-to-top {
+    font-family: "Roboto", sans-serif;
     color: #ff0000;
+    font-size: 20px;
 }
 
 .return-to-top-dark {
@@ -382,6 +406,11 @@ h4 {
 
 
 /*----/Hire Us----*/
+
+.modal-text {
+    font-family: "Roboto", sans-serif;
+    font-size: 1.2em;
+}
 
 /*----Footer----*/
 
