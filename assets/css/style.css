@@ -1,4 +1,4 @@
-/*----Navbar----*/
+/*------------Navbar--------*/
 
 .navbar {
     color: #fafafa;
@@ -19,10 +19,19 @@
 
 .navbar .navbar-nav a {
     font-weight: bold;
+
+}
+
+#nav-item-color {
+    color: #ECECEC;
+}
+
+#nav-button-color {
+    color: #fafafa;
 }
 
 
-/*----/Navbar----*/
+/*------------/Navbar--------*/
 
 .main-image {
     margin: 0;
@@ -35,6 +44,7 @@
     height: 800px;
     border-bottom: groove 4px;
     border-color: #fafafa;
+    background-attachment: fixed;
 }
 
 .container-fluid {
@@ -72,11 +82,15 @@ h4 {
 }
 
 h5 {
-    font-family: "Roboto", sans-serif;
+    font-family: 'Roboto Slab', sans-serif;
+    text-align: center;
+    font-weight: bold;
 
 }
 
-/*----Social Icons----*/
+
+
+/*------------Social Icons--------*/
 
 .social-icons {
     padding-top: 10px;
@@ -107,7 +121,9 @@ h5 {
     transition: all .5s ease-in;
 }
 
-/*----/Social Icons----*/
+
+
+/*------------/Social Icons--------*/
 
 .home-page {
     margin: 0;
@@ -115,10 +131,13 @@ h5 {
     background-color: #000;
 }
 
+
+
 /*----Tour----*/
 
 .tour-page {
     background-image: url("../images/wall_mob.jpg");
+    background-attachment: fixed;
     margin: 0;
     padding: 0;
 
@@ -129,9 +148,9 @@ h5 {
     text-align: center;
     padding-top: 30px;
     padding-bottom: 30px;
-    font-family: "BioRhyme Expanded", sans-serif;
+    font-family: 'Gloria Hallelujah', cursive, sans-serif;
     font-weight: bold;
-    font-size: 2em;
+    font-size: 2.5em;
     background-color: rgba(255, 255, 255, 0.5);
 }
 
@@ -152,7 +171,7 @@ h5 {
 }
 
 .tour-list-city {
-    padding:0;
+    padding: 0;
     font-size: 12px;
     list-style: none;
     font-weight: bold;
@@ -179,26 +198,29 @@ h5 {
     font-family: "Exo", sans-serif;
 }
 
+
+/*----Buttons----*/
+
 .ticket-button {
     font-weight: bold;
     margin: 20px 0;
     height: 60px;
     font-size: 24px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;
     text-align: center;
     letter-spacing: 1px;
     border: 1px solid black;
-    border-radius: 2px;
+    border-radius: 12px;
 
 }
 
 .ticket-button:hover {
 
     font-size: 30px;
-    font-weight: 700;
+    font-weight: bold;
     background-color: #fff;
     color: #252322;
-    letter-spacing: 4px;
+    letter-spacing: 2px;
     -webkit-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
     -moz-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
     transition: all 1s ease 0s;
@@ -208,11 +230,11 @@ h5 {
     font-weight: bold;
     height: 60px;
     font-size: 24px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', sans-serif;
     text-align: center;
     letter-spacing: 1px;
     border: 1px solid black;
-    border-radius: 2px;
+    border-radius: 12px;
 
 }
 
@@ -227,13 +249,24 @@ h5 {
     transition: all 1s ease 0s;
 }
 
+.btn-dark {
+    background-color: #4B4B51;
+    font-family: 'Roboto Slab', sans-serif;
+    border-radius: 10px;
+    position: relative;
+    display: block;
+    width: 130px;
+    margin: auto;
+}
+
+
+
 .btn-dark:hover {
-    font-size: 14px;
-    font-weight: 700;
+    font-size: 16px;
+    font-weight: bold;
     background-color: #DEDDDD;
     color: #252322;
-    width: 140px;
-    letter-spacing: 4px;
+    letter-spacing: 2px;
     -webkit-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
     -moz-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
     transition: all 1s ease 0s;
@@ -243,13 +276,17 @@ h5 {
     padding-left: 120px;
 }
 
-/*----About Us----*/
+
+/*----/Buttons----*/
+
+/*------------About Us--------*/
 
 .member-card {
     padding: 20px 0;
     margin: 20px 0;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 
@@ -259,27 +296,33 @@ h5 {
     background-image: url("../images/member.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 .card-img-top {
     width: 100%;
     height: 360px;
+}
 
+.card-body {
+    background-color: #F3F3F3;
 }
 
 .return-to-top {
-    font-family: "Roboto", sans-serif;
-    color: #ff0000;
+    font-family: 'Roboto Slab', sans-serif;
+    color: #0a0a0a;
     font-size: 20px;
 }
 
 .return-to-top-dark {
-    font-family: "Roboto", sans-serif;
+    font-family: 'Roboto Slab', sans-serif;
     color: #fafafa;
     font-size: 20px;
 }
 
-/*----Gallery----*/
+
+
+/*------------Gallery--------*/
 
 .gallery-row {
     padding-left: 0;
@@ -289,6 +332,7 @@ h5 {
     background-image: url("../images/gallery_wall.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 
@@ -297,11 +341,11 @@ h5 {
     text-align: center;
     padding-top: 20px;
     padding-bottom: 50px;
-    font-family: 'BioRhyme Expanded', serif;
+    font-family: 'Gloria Hallelujah', cursive, sans-serif;
     font-weight: bold;
-    font-size: 2em;
-
+    font-size: 2.5em;
 }
+
 
 #mycarousel {
     margin: 30px 0;
@@ -324,7 +368,9 @@ h5 {
     padding: 0;
 }
 
-/*----Gallery Images----*/
+
+
+/*------------Gallery Images--------*/
 
 .gallery-image-row-1 {
     display: inline;
@@ -342,16 +388,18 @@ h5 {
     margin: 0;
 }
 
-/*----Media----*/
+
+
+/*------------Media--------*/
 
 .page-title-media {
     color: #fafafa;
     text-align: center;
     padding-top: 40px;
     padding-bottom: 20px;
-    font-family: 'BioRhyme Expanded', serif;
+    font-family: 'Gloria Hallelujah', cursive, sans-serif;
     font-weight: bold;
-    font-size: 2em;
+    font-size: 2.5em;
 }
 
 .media-row {
@@ -368,9 +416,12 @@ h5 {
     padding-bottom: 30px;
     padding-top: 30px;
     color: #fafafa;
+    font-size: 1.6em;
 }
 
-/*----/Media----*/
+
+
+/*------------/Media--------*/
 
 .channel-links {
 
@@ -382,11 +433,12 @@ h5 {
 
 .channel-links h3 {
     color: #fafafa;
-    font-family: "Roboto", sans-serif;
+    font-family: 'Roboto Slab', sans-serif;
 }
 
 
-/*----Hire Us----*/
+
+/*------------Hire Us--------*/
 
 .hireus-container {
     margin: 0;
@@ -398,21 +450,20 @@ h5 {
     margin: 0;
     text-align: center;
     padding-top: 30px;
-    padding-left: 30px;
     font-family: "Exo", sans-serif;
     font-size: 1.2em;
 }
 
 
 
-/*----/Hire Us----*/
+/*------------/Hire Us--------*/
 
 .modal-text {
     font-family: "Roboto", sans-serif;
     font-size: 1.2em;
 }
 
-/*----Footer----*/
+/*------------Footer--------*/
 
 .fan-club-text {
     color: #fafafa;
@@ -451,9 +502,11 @@ h5 {
     transition: all .5s ease-in;
 }
 
-/*----/Footer----*/
 
-/*----Media Queries----*/
+
+/*------------/Footer--------*/
+
+/*------------Media Queries--------*/
 
 @media(min-width: 992px) {
     .main-image {
@@ -466,13 +519,16 @@ h5 {
     }
 
 
+    .col-6 ul li {
+        padding-left: 80px;
+    }
 
 
     .tour-image {
         display: none;
     }
-    
-    
+
+
     .gallery {
         margin: 0;
         padding: 0;
@@ -498,12 +554,12 @@ h5 {
     }
 
     .tour-list-city {
-    margin-left: 30px;
-    font-size: 12px;
-    list-style: none;
-    font-weight: bold;
+        margin-left: 30px;
+        font-size: 12px;
+        list-style: none;
+        font-weight: bold;
 
-}
+    }
 
 
     .tour-list-date {
@@ -513,11 +569,10 @@ h5 {
     }
 
     .media-row {
-
-
         background-image: url("../images/media_bg.jpeg");
         background-repeat: no-repeat;
         background-size: cover;
+        background-attachment: fixed;
     }
 
     .carousel-item img {
@@ -530,6 +585,8 @@ h5 {
     }
 
 }
+
+
 
 @media(min-width: 1281px) {
     .main-image {
@@ -556,7 +613,6 @@ h5 {
         padding-left: 20px;
         padding-top: 20px;
         margin: 0;
-        height: 900px;
         background-image: url("../images/gallery_wall.jpeg");
         background-repeat: no-repeat;
         background-size: cover;
@@ -570,9 +626,10 @@ h5 {
     }
 
     .gallery-image img {
-        height: 300px;
-        width: 400px;
-        margin-left: 30px;
+        height: 500px;
+        width: 100vh;
+        display: flex;
+        padding: 25px;
     }
 
     .tour-page ul {

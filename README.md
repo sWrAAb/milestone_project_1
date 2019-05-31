@@ -6,17 +6,27 @@ This Milestone project uses knowlege from first three modules of the Full Stack
 Developer Course, HTML, CSS & User Centric Frontend Development, to build a mobile-first 
 fully responsive website for a 1960's rock band.
 It fulfils the need for fans and potential fans to listen to Pink Floyd's music, watch their 
-videos and view their images. Website includes tour dates and band member info with wikipedia links, 
+videos and images. Website includes tour dates and band member info with wikipedia links, 
 link to social networks, YouTube channels and a link to Fan Club.
 
+<p align="center">
+  <img width="300" height="300" src="https://github.com/sWrAAb/milestone_project_1/blob/master/assets/images/pf_logo.jpg">
+</p>
 
-![alt text][logo]
-
-[logo]: https://github.com/sWrAAb/milestone_project_1/blob/master/assets/images/pf_logo.jpg "Logo Title Text 2"
+This website was made for all the fans and potential fans who want to enjoy music, videos and images 
+of their favourite rock band.
 
 ### Functionality of project
 
-Website has been created using Bootstrap Framework grid system
+Website has been created using Bootstrap Framework grid. Designed as a single page with 
+simple navigation bar. Navigation bar is collapsed into a hamburger button for mobile  devices so it does
+not take much space on the screen. On the bigger screens navigation bar is expanded so all links
+are visible. Links are connected to titles of the content segments with a return to top link above every 
+title. Website contains multiple working links to wikipedia, social media and  two Pink Floyd YouTube
+channels, all set to open in new browser tab. Ticket button is not connected to outside link. Form and modal are also included
+for contact and Fan Club.Both form and modal hold data validation and all fields residing within are set to
+required ensuring information submitted is of the correct format. As is customary, form notify the
+user that their personal information will not be shared with anyone, ensuring a sense of General Data Protection Regulations.
 
 
 ### Technologies used
@@ -35,15 +45,19 @@ Website has been created using Bootstrap Framework grid system
 ### Deployement
 
 Website was created in Cloud 9 IDE. Through Cloud 9 a local github repository was used  for version 
-control and then uploaded to GITHUB using Ubuntu / Bash script. Once in a GITHUB repositories it was 
+control and then uploaded to Git using Ubuntu / Bash script. Once in a GITHUB repositories it was 
 made live using GITHUB Pages. The website can be found at: 
-[https://swraab.github.io/milestone_project_1/]
+https://swraab.github.io/milestone_project_1/
 
 ### Testing 
 
+Through the work on the project, website was regulary tested in Chrome developer tools to ensure every element is responsive
 ### Features
 
 ### Work based on other code
+
+
+### Features
 
 
 
