@@ -31,7 +31,10 @@ set to required ensuring information submitted is of the correct format. As is c
 user that their personal information will not be shared with anyone, ensuring a sense of General Data Protection
 Regulations.
 
-
+<p align="center">
+<img  width="200" height="300" src="https://github.com/sWrAAb/milestone_project_1/blob/master/assets/images/rmd1.png">          
+<img width="200" height="300" src="https://github.com/sWrAAb/milestone_project_1/blob/master/assets/images/rmd2.png">
+</p>
 
 ### Technologies used
 
@@ -57,7 +60,7 @@ made live using GITHUB Pages. The website can be found at:
 ### Testing 
 
 Throughout the work on the project, website was regulary tested locally and on GITHUB in Chrome developer tools to
-ensure every element is responsive. Starting from the mobile-first side each element on each page was tested to 
+ensure every element is responsive. Starting from the mobile-first side every element was tested to 
 ensure it functions as expected. Using the device selector through the dev tools, each device was selected to
 achieve the responsivness needed. All errors were fixed before new content was introduced on the page. Biggest 
 problem were images. That problem was resolved with Bootstrap responsive images. All links were tested to ensure
@@ -77,7 +80,7 @@ they all open in new browser tab.
 
 ### Work based on other code
 
-Most of the website was based on the Whiskey Drop and resume lessons. 
+Website is inspired by the "Whiskey Drop" lesson 
 
 
 
