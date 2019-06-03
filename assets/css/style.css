@@ -41,7 +41,7 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    height: 800px;
+    height: 100vh;
     border-bottom: groove 4px;
     border-color: #fafafa;
     background-attachment: fixed;
@@ -151,7 +151,7 @@ h5 {
     font-family: 'Gloria Hallelujah', cursive, sans-serif;
     font-weight: bold;
     font-size: 2.5em;
-    background-color: rgba(255, 255, 255, 0.5);
+    color: #000;
 }
 
 .aboutus-container {
@@ -165,8 +165,7 @@ h5 {
     height: 400px;
     background-size: cover;
     background-repeat: no-repeat;
-    margin: 60px 0 0 0;
-
+    margin-top: 60px;
 
 }
 
@@ -308,26 +307,36 @@ h5 {
     background-color: #F3F3F3;
 }
 
-.return-to-top {
-    font-family: 'Roboto Slab', sans-serif;
-    color: #0a0a0a;
-    font-size: 20px;
+
+.fa-arrow-circle-up {
+    color: #000;
+    height: 50px;
+    position: absolute;
+    left: 8px;
+    top: 30px;
 }
 
-.return-to-top-dark {
-    font-family: 'Roboto Slab', sans-serif;
+.icon-light {
     color: #fafafa;
-    font-size: 20px;
+    height: 50px;
+    position: absolute;
+    left: 8px;
+    top: 40px;
 }
 
+.fa-arrow-circle-up:hover {
+    color: #A60000;
+    height: 50px;
+}
 
 
 /*------------Gallery--------*/
 
 .gallery-row {
-    padding-left: 0;
+    width: 100vw;
+
     padding-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 120px;
     margin: 0;
     background-image: url("../images/gallery_wall.jpeg");
     background-repeat: no-repeat;
@@ -339,7 +348,7 @@ h5 {
 .page-title-gallery {
 
     text-align: center;
-    padding-top: 20px;
+    padding-top: 24px;
     padding-bottom: 50px;
     font-family: 'Gloria Hallelujah', cursive, sans-serif;
     font-weight: bold;
@@ -372,14 +381,33 @@ h5 {
 
 /*------------Gallery Images--------*/
 
-.gallery-image-row-1 {
-    display: inline;
-    display: flex;
-    padding-bottom: 40px;
+.gallery-images {
     margin: 0;
+    padding: 0;
+    width: 100%;
 
 
 }
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    display: inline;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    height: 500px;
+}
+
+.gallery-image-row-1 {
+    display: inline;
+    display: flex;
+    padding-right: 0;
+    padding-bottom: 40px;
+    margin: 0;
+
+}
+
 
 .gallery-image-row-2 {
     display: inline;
@@ -388,14 +416,20 @@ h5 {
     margin: 0;
 }
 
+.gallery-image-row-1 img {
+    width: 100vw;
+}
 
+.gallery-image-row-2 img {
+    width: 100vw;
+}
 
 /*------------Media--------*/
 
 .page-title-media {
     color: #fafafa;
     text-align: center;
-    padding-top: 40px;
+    padding-top: 24px;
     padding-bottom: 20px;
     font-family: 'Gloria Hallelujah', cursive, sans-serif;
     font-weight: bold;
@@ -403,8 +437,6 @@ h5 {
 }
 
 .media-row {
-
-
     background-image: url("https://images.pexels.com/photos/580679/pexels-photo-580679.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
     background-repeat: no-repeat;
     background-size: cover;
@@ -459,8 +491,11 @@ h5 {
 /*------------/Hire Us--------*/
 
 .modal-text {
-    font-family: "Roboto", sans-serif;
-    font-size: 1.2em;
+    font-family: 'Roboto Slab', sans-serif;
+    font-size: 0.8em;
+    padding-top: 10px;
+    padding-left: 10px;
+    font-weight: 100;
 }
 
 /*------------Footer--------*/
@@ -474,7 +509,7 @@ h5 {
     color: #7A7A7A;
     text-align: center;
     font-size: 26px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', sans-serif;
     font-weight: 500;
     padding: 50px 0;
 }
@@ -540,9 +575,6 @@ h5 {
         background-size: cover;
     }
 
-    .gallery-images {
-        display: none;
-    }
 
     .tour-page ul {
         margin: 0;
@@ -568,6 +600,10 @@ h5 {
         list-style: none;
     }
 
+    .tour-page ul li {
+        padding: 20px 0 30px 60px;
+    }
+
     .media-row {
         background-image: url("../images/media_bg.jpeg");
         background-repeat: no-repeat;
@@ -582,6 +618,22 @@ h5 {
 
     .form-container {
         width: 50%;
+    }
+
+    .page-title-gallery {
+
+        padding-right: 200px;
+
+    }
+
+    .page-title-media {
+
+        padding-right: 200px;
+
+    }
+
+    .page-title {
+        padding-right: 200px;
     }
 
 }
@@ -610,7 +662,7 @@ h5 {
     }
 
     .gallery-row {
-        padding-left: 20px;
+
         padding-top: 20px;
         margin: 0;
         background-image: url("../images/gallery_wall.jpeg");
@@ -625,12 +677,7 @@ h5 {
         background-size: cover;
     }
 
-    .gallery-image img {
-        height: 500px;
-        width: 100vh;
-        display: flex;
-        padding: 25px;
-    }
+
 
     .tour-page ul {
         margin: 0;
@@ -641,8 +688,9 @@ h5 {
         font-size: 30px;
     }
 
+
     .tour-list-city {
-        padding-left: 100px;
+        padding-left: 80px;
         font-size: 16px;
         list-style: none;
     }
