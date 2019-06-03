@@ -18,15 +18,18 @@ of their favourite rock band.
 
 ### Functionality of project
 
+
+
 Website has been created using Bootstrap Framework grid. Designed for mobile devices as a single page with 
 simple navigation bar. Navigation bar is collapsed into a hamburger button for mobile devices, so it does
 not take much space on the screen. On the bigger screen navigation bar is expanded so all links
-are visible. Links are connected to titles of the content sections with a return to top icon next to  
+are visible. Links are connected to titles of the content sections with a return to top arrow icon next to  
 title. Website contains multiple working links to wikipedia, social media and two Pink Floyd YouTube
 channels, all set to open in new browser tab. Ticket button is not connected to outside link. Form and modal are
 also included for contact and Fan Club. Both form and modal hold data validation and all fields residing within are 
 set to required ensuring information submitted is of the correct format. As is customary, form notify the
-user that their personal information will not be shared with anyone, ensuring a sense of General Data Protection Regulations.
+user that their personal information will not be shared with anyone, ensuring a sense of General Data Protection
+Regulations.
 
 
 
@@ -48,21 +51,24 @@ user that their personal information will not be shared with anyone, ensuring a 
 Website was created in Cloud 9 IDE. Through Cloud 9 a local GITHUB repository was used  for version 
 control and then uploaded to Git using Ubuntu / Bash script. Once in a GITHUB repositories it was 
 made live using GITHUB Pages. The website can be found at: 
-https://swraab.github.io/milestone_project_1/
+
+<b>https://swraab.github.io/milestone_project_1/</b>
 
 ### Testing 
 
-Throughout the work on the project, website was regulary tested in Chrome developer tools to ensure every element is
-responsive. Starting from the mobile-first side each element on each page was tested to ensure it functions as
-expected. Using the device selector through the dev tools, each device was selected to achieve the responsivness needed. 
-All errors were fixed before new content was introduced on the page. Biggest problem were images. That problem
-was resolved with Bootstrap responsive images. All links were tested and ensured they all open in new browser tab.
+Throughout the work on the project, website was regulary tested locally and on GITHUB in Chrome developer tools to
+ensure every element is responsive. Starting from the mobile-first side each element on each page was tested to 
+ensure it functions as expected. Using the device selector through the dev tools, each device was selected to
+achieve the responsivness needed. All errors were fixed before new content was introduced on the page. Biggest 
+problem were images. That problem was resolved with Bootstrap responsive images. All links were tested to ensure
+they all open in new browser tab. 
 
 
 ### Features
 
   * Join the Fan Club
   * Find out about tours
+  * Learn about band members
   * Watch videos
   * Watch images
   * Connect to social media
@@ -71,9 +77,9 @@ was resolved with Bootstrap responsive images. All links were tested and ensured
 
 ### Work based on other code
 
-Most of the website was based on the Whiskey Drop and resume lesson,  
+Most of the website was based on the Whiskey Drop and resume lessons. 
 
-### Features
+
 
 
 
