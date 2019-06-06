@@ -73,7 +73,8 @@ ensure it functions as expected. Website was tested in Chrome, Opera, Mozilla an
 Using the device selector through the dev tools, each device was selected to achieve the responsivness
 needed. All errors were fixed before new content was introduced on the page. On early stages problem
 were images. That problem was resolved with Bootstrap responsive images. All links were tested to 
-ensure they all open in new browser tab.
+ensure they all open in new browser tab. Modal and form have been tested to ensure all input fields require 
+specific format (text or email adress) and display warning if wrong format was entered.
 
 
 <p align="center">
@@ -98,12 +99,15 @@ ensure they all open in new browser tab.
 
 My first Milestone project is created as a single page website  inspired by the "Whiskey Drop" lesson
 and Metallica website https://www.metallica.com. Pink Floyd images and band member photos were taken 
-from various sources (google). Background images were taken from https://www.pexels.com. 
+from various sources: https://www.udiscovermusic.com/artists/pink-floyd/,
+https://www.ticketmaster.com.au/echoes-of-pink-floyd-tickets/artist/1219651, 
+https://www.miaminewtimes.com/music/brit-floyd-was-the-closest-well-ever-come-to-pink-floyd-7759567.
+Background images were taken from https://www.pexels.com. 
 Rest of the code was inspired by Code Institute modules and some aditional help from 
 https://www.w3schools.com.
 
 I wish to thank my mentor Spence Barriball for great mentorship and advices, such as use of Carousel and
-help with media queries.
+advices about media queries and iframes.
 
 #### Disclaimer
 
