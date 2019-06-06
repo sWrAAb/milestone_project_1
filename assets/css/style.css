@@ -307,6 +307,12 @@ h5 {
     background-color: #F3F3F3;
 }
 
+.card-text {
+    font-family: "Roboto Slab", sans-serif;
+    text-align: center;
+    font-size: 1.1em;
+    
+}
 
 .fa-arrow-circle-up {
     color: #000;
@@ -541,7 +547,12 @@ h5 {
 
 /*------------/Footer--------*/
 
+
+
+
 /*------------Media Queries--------*/
+
+
 
 @media(min-width: 992px) {
     .main-image {

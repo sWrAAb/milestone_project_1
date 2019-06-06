@@ -23,7 +23,15 @@ of their favourite rock band.
 Website has been created using Bootstrap Framework grid. Designed for mobile devices as a single page with 
 simple navigation bar. Navigation bar is collapsed into a hamburger button for mobile devices, so it does
 not take much space on the screen. On the bigger screen navigation bar is expanded so all links
-are visible. Links are connected to titles of the content sections with a return to top arrow icon next to  
+are visible. 
+
+<p align="center">
+<img  width="300" height="400" src="https://github.com/sWrAAb/milestone_project_1/blob/master/assets/images/rmd1.png">          
+<img width="300" height="400" src="https://github.com/sWrAAb/milestone_project_1/blob/master/assets/images/rmd2.png">
+</p>
+
+
+Links are connected to titles of the content sections with a return to top arrow icon next to  
 title. Website contains multiple working links to wikipedia, social media and two Pink Floyd YouTube
 channels, all set to open in new browser tab. Ticket button is not connected to outside link. Form and modal are
 also included for contact and Fan Club. Both form and modal hold data validation and all fields residing within are 
@@ -31,9 +39,9 @@ set to required ensuring information submitted is of the correct format. As is c
 user that their personal information will not be shared with anyone, ensuring a sense of General Data Protection
 Regulations.
 
+
 <p align="center">
-<img  width="200" height="300" src="https://github.com/sWrAAb/milestone_project_1/blob/master/assets/images/rmd1.png">          
-<img width="200" height="300" src="https://github.com/sWrAAb/milestone_project_1/blob/master/assets/images/rmd2.png">
+<img  width="400" height="200" src="https://github.com/sWrAAb/milestone_project_1/blob/master/assets/images/images.png">          
 </p>
 
 ### Technologies used
@@ -61,26 +69,38 @@ made live using GITHUB Pages. The website can be found at:
 
 Throughout the work on the project, website was regulary tested locally and on GITHUB in Chrome developer tools to
 ensure every element is responsive. Starting from the mobile-first side every element was tested to 
-ensure it functions as expected. Using the device selector through the dev tools, each device was selected to
-achieve the responsivness needed. All errors were fixed before new content was introduced on the page. Biggest 
-problem were images. That problem was resolved with Bootstrap responsive images. All links were tested to ensure
-they all open in new browser tab. 
+ensure it functions as expected. Website was tested in Chrome, Opera, Mozilla and Brave browsers.
+Using the device selector through the dev tools, each device was selected to achieve the responsivness
+needed. All errors were fixed before new content was introduced on the page. On early stages problem
+were images. That problem was resolved with Bootstrap responsive images. All links were tested to 
+ensure they all open in new browser tab.
 
 
 ### Features
 
-  * Join the Fan Club
-  * Find out about tours
-  * Learn about band members
-  * Watch videos
-  * Watch images
-  * Connect to social media
+  * Fan Club
+  * Information about band tours and events
+  * Gallery
+  * Videos
+  * Information about band members
+  * Social media links
+  * Links to two YouTube channels
   * Hire the band for weddings or parties
   
 
-### Work based on other code
+### Credits
 
-Website is inspired by the "Whiskey Drop" lesson 
+My first Milestone project is created as a single page website  inspired by the "Whiskey Drop" lesson
+and Metallica website https://www.metallica.com. Pink Floyd images and band member photos were taken 
+from various sources (google). Background images were taken from https://www.pexels.com. 
+Rest of the code was inspired by Code Institute modules and some aditional help from 
+https://www.w3schools.com.
+
+
+#### Disclaimer
+
+This website was made for educational use.
+
 
 
 
