@@ -41,7 +41,7 @@ Regulations.
 
 </br>
 <p align="center">
-<img  width="400" height="200" src="https://github.com/sWrAAb/milestone_project_1/blob/master/assets/images/icons.png">          
+<img  width="600" height="300" src="https://github.com/sWrAAb/milestone_project_1/blob/master/assets/images/icons.png">          
 </p>
 
 ### Technologies used
@@ -78,7 +78,7 @@ specific format (text or email adress) and display warning if wrong format was e
 
 
 <p align="center">
-<img  width="400" height="400" src="https://github.com/sWrAAb/milestone_project_1/blob/master/assets/images/testing.png">          
+<img  width="600" height="600" src="https://github.com/sWrAAb/milestone_project_1/blob/master/assets/images/testing.png">          
 </p>
 
 

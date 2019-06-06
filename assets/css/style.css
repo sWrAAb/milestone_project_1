@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Exo:400,700|Gloria+Hallelujah|Roboto+Slab:300,400&display=swap');
+
+
 /*------------Navbar--------*/
 
 .navbar {
@@ -15,19 +18,15 @@
 
 .navbar .navbar-toggler {
     border: 0;
+
 }
 
 .navbar .navbar-nav a {
     font-weight: bold;
-
 }
 
-#nav-item-color {
+.navbar-text-color {
     color: #ECECEC;
-}
-
-#nav-button-color {
-    color: #fafafa;
 }
 
 
@@ -88,6 +87,10 @@ h5 {
 
 }
 
+.col-1 {
+    max-height: 120px;
+    margin-top: 30px;
+}
 
 
 /*------------Social Icons--------*/
@@ -311,36 +314,25 @@ h5 {
     font-family: "Roboto Slab", sans-serif;
     text-align: center;
     font-size: 1.1em;
-    
+
 }
 
 .fa-arrow-circle-up {
     color: #000;
-    height: 50px;
-    position: absolute;
-    left: 8px;
-    top: 30px;
 }
 
 .icon-light {
     color: #fafafa;
-    height: 50px;
-    position: absolute;
-    left: 8px;
-    top: 40px;
 }
 
 .fa-arrow-circle-up:hover {
     color: #A60000;
-    height: 50px;
 }
 
 
 /*------------Gallery--------*/
 
 .gallery-row {
-    width: 100vw;
-
     padding-top: 20px;
     padding-bottom: 120px;
     margin: 0;
@@ -390,19 +382,16 @@ h5 {
 .gallery-images {
     margin: 0;
     padding: 0;
-    width: 100%;
-
 
 }
 
 .img-fluid {
-    max-width: 100%;
-    height: auto;
+    height: 350px;
     display: inline;
     display: flex;
     padding: 0;
     margin: 0;
-    height: 500px;
+
 }
 
 .gallery-image-row-1 {
@@ -547,12 +536,7 @@ h5 {
 
 /*------------/Footer--------*/
 
-
-
-
 /*------------Media Queries--------*/
-
-
 
 @media(min-width: 992px) {
     .main-image {
@@ -614,7 +598,7 @@ h5 {
     .tour-page ul li {
         padding: 20px 0 30px 60px;
     }
-    
+
     .tour-list {
         font-size: 16px;
         list-style: none;
@@ -666,7 +650,7 @@ h5 {
         background-size: cover;
         height: 100vh;
     }
-    
+
 
 
 
