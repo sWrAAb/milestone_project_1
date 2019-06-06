@@ -26,8 +26,8 @@ not take much space on the screen. On the bigger screen navigation bar is expand
 are visible. 
 
 <p align="center">
-<img  width="300" height="400" src="https://github.com/sWrAAb/milestone_project_1/blob/master/assets/images/rmd1.png">          
-<img width="300" height="400" src="https://github.com/sWrAAb/milestone_project_1/blob/master/assets/images/rmd2.png">
+<img  width="400" height="400" src="https://github.com/sWrAAb/milestone_project_1/blob/master/assets/images/rmd1.png">          
+<img width="400" height="400" src="https://github.com/sWrAAb/milestone_project_1/blob/master/assets/images/rmd2.png">
 </p>
 
 
@@ -41,7 +41,7 @@ Regulations.
 
 
 <p align="center">
-<img  width="400" height="200" src="https://github.com/sWrAAb/milestone_project_1/blob/master/assets/images/images.png">          
+<img  width="400" height="200" src="https://github.com/sWrAAb/milestone_project_1/blob/master/assets/images/icons.png">          
 </p>
 
 ### Technologies used
@@ -76,6 +76,11 @@ were images. That problem was resolved with Bootstrap responsive images. All lin
 ensure they all open in new browser tab.
 
 
+<p align="center">
+<img  width="400" height="400" src="https://github.com/sWrAAb/milestone_project_1/blob/master/assets/images/testing.png">          
+</p>
+
+
 ### Features
 
   * Fan Club
@@ -88,6 +93,7 @@ ensure they all open in new browser tab.
   * Hire the band for weddings or parties
   
 
+
 ### Credits
 
 My first Milestone project is created as a single page website  inspired by the "Whiskey Drop" lesson
@@ -96,6 +102,8 @@ from various sources (google). Background images were taken from https://www.pex
 Rest of the code was inspired by Code Institute modules and some aditional help from 
 https://www.w3schools.com.
 
+I wish to thank my mentor Spence Barriball for great mentorship and advices, such as use of Carousel and
+help with media queries.
 
 #### Disclaimer
 
