@@ -1,6 +1,6 @@
 # Pink Floyd Responsive Website Project
 
-### What does it do and what need does it fulfil?
+### What does it do and what need does it fulfill?
 
 This Milestone project uses skills learned from first three modules of the Full Stack 
 Developer Course, HTML, CSS & User Centric Frontend Development, to build a mobile-first 
@@ -39,7 +39,7 @@ set to required ensuring information submitted is of the correct format. As is c
 user that their personal information will not be shared with anyone, ensuring a sense of General Data Protection
 Regulations.
 
-
+</br>
 <p align="center">
 <img  width="400" height="200" src="https://github.com/sWrAAb/milestone_project_1/blob/master/assets/images/icons.png">          
 </p>
