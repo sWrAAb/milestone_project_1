@@ -26,8 +26,8 @@ not take much space on the screen. On the bigger screen navigation bar is expand
 are visible. 
 
 <p align="center">
-<img  width="411" height="820" src="https://github.com/sWrAAb/milestone_project_1/blob/master/assets/images/rmd1.png">          
-<img width="411" height="820" src="https://github.com/sWrAAb/milestone_project_1/blob/master/assets/images/rmd2.png">
+<img  width="411" height="520" src="https://github.com/sWrAAb/milestone_project_1/blob/master/assets/images/rmd1.png">          
+<img width="411" height="520" src="https://github.com/sWrAAb/milestone_project_1/blob/master/assets/images/rmd2.png">
 </p>
 
 
@@ -41,7 +41,7 @@ information will not be shared with anyone, ensuring a sense of General Data Pro
 
 </br>
 <p align="center">
-<img  width="594" height="214" src="https://github.com/sWrAAb/milestone_project_1/blob/master/assets/images/icons.png">          
+<img  width="694" height="284" src="https://github.com/sWrAAb/milestone_project_1/blob/master/assets/images/icons.png">          
 </p>
 
 ### Technologies used
@@ -75,7 +75,7 @@ needed. All errors were fixed before new content was introduced on the page. On 
 were images. That problem was resolved with Bootstrap responsive images. All links were tested to 
 ensure they all open in new browser tab. Modal and form have been tested to ensure all input fields require 
 specific format (text or email adress) and display warning if wrong format was entered.
-Last tests were made in HTML and CSS validators. 
+Last tests were made in HTML and CSS validators and all errors were corrected.
 
 
 <p align="center">
