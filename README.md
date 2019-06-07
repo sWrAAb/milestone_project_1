@@ -26,8 +26,8 @@ not take much space on the screen. On the bigger screen navigation bar is expand
 are visible. 
 
 <p align="center">
-<img  width="411" height="520" src="https://github.com/sWrAAb/milestone_project_1/blob/master/assets/images/rmd1.png">          
-<img width="411" height="520" src="https://github.com/sWrAAb/milestone_project_1/blob/master/assets/images/rmd2.png">
+<img  width="380" height="520" src="https://github.com/sWrAAb/milestone_project_1/blob/master/assets/images/rmd1.png">          
+<img width="380" height="520" src="https://github.com/sWrAAb/milestone_project_1/blob/master/assets/images/rmd2.png">
 </p>
 
 
@@ -41,7 +41,7 @@ information will not be shared with anyone, ensuring a sense of General Data Pro
 
 </br>
 <p align="center">
-<img  width="594" height="254" src="https://github.com/sWrAAb/milestone_project_1/blob/master/assets/images/icons.png">          
+<img  width="544" height="234" src="https://github.com/sWrAAb/milestone_project_1/blob/master/assets/images/icons.png">          
 </p>
 
 ### Technologies used
