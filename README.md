@@ -26,8 +26,8 @@ not take much space on the screen. On the bigger screen navigation bar is expand
 are visible. 
 
 <p align="center">
-<img  width="400" height="400" src="https://github.com/sWrAAb/milestone_project_1/blob/master/assets/images/rmd1.png">          
-<img width="400" height="400" src="https://github.com/sWrAAb/milestone_project_1/blob/master/assets/images/rmd2.png">
+<img  width="411" height="820" src="https://github.com/sWrAAb/milestone_project_1/blob/master/assets/images/rmd1.png">          
+<img width="411" height="820" src="https://github.com/sWrAAb/milestone_project_1/blob/master/assets/images/rmd2.png">
 </p>
 
 
@@ -35,13 +35,13 @@ Links are connected to titles of the content sections with a return to top arrow
 title. Website contains multiple working links to wikipedia, social media and two Pink Floyd YouTube
 channels, all set to open in new browser tab. Ticket button is not connected to outside link. Form and modal are
 also included for contact and Fan Club. Both form and modal hold data validation and all fields residing within are 
-set to required ensuring information submitted is of the correct format. As is customary, form notify the
-user that their personal information will not be shared with anyone, ensuring a sense of General Data Protection
-Regulations.
+set to required ensuring information submitted is of the correct format but they don't alert anyone from the Webteam
+that a form has being filled nor do they fill a database. As is customary, form notify the user that their personal 
+information will not be shared with anyone, ensuring a sense of General Data Protection Regulations.
 
 </br>
 <p align="center">
-<img  width="600" height="300" src="https://github.com/sWrAAb/milestone_project_1/blob/master/assets/images/icons.png">          
+<img  width="594" height="214" src="https://github.com/sWrAAb/milestone_project_1/blob/master/assets/images/icons.png">          
 </p>
 
 ### Technologies used
@@ -75,10 +75,11 @@ needed. All errors were fixed before new content was introduced on the page. On 
 were images. That problem was resolved with Bootstrap responsive images. All links were tested to 
 ensure they all open in new browser tab. Modal and form have been tested to ensure all input fields require 
 specific format (text or email adress) and display warning if wrong format was entered.
+Last tests were made in HTML and CSS validators. 
 
 
 <p align="center">
-<img  width="600" height="600" src="https://github.com/sWrAAb/milestone_project_1/blob/master/assets/images/testing.png">          
+<img  width="716" height="456" src="https://github.com/sWrAAb/milestone_project_1/blob/master/assets/images/testing.png">          
 </p>
 
 
@@ -98,13 +99,13 @@ specific format (text or email adress) and display warning if wrong format was e
 ### Credits
 
 My first Milestone project is created as a single page website  inspired by the "Whiskey Drop" lesson
-and Metallica website https://www.metallica.com. Pink Floyd images and band member photos were taken 
-from various sources: https://www.udiscovermusic.com/artists/pink-floyd/,
+and Metallica website <b>https://www.metallica.com.</b> Pink Floyd images and band member photos were taken 
+from several sources: <b>https://www.udiscovermusic.com/artists/pink-floyd/,
 https://www.ticketmaster.com.au/echoes-of-pink-floyd-tickets/artist/1219651, 
-https://www.miaminewtimes.com/music/brit-floyd-was-the-closest-well-ever-come-to-pink-floyd-7759567.
-Background images were taken from https://www.pexels.com. 
+https://www.miaminewtimes.com/music/brit-floyd-was-the-closest-well-ever-come-to-pink-floyd-7759567.</b>
+Background images were taken from <b>https://www.pexels.com. </b>
 Rest of the code was inspired by Code Institute modules and some aditional help from 
-https://www.w3schools.com.
+<b>https://www.w3schools.com.</b>
 
 I wish to thank my mentor Spence Barriball for great mentorship and advices, such as use of Carousel and
 advices about media queries and iframes.
