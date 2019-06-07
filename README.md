@@ -26,8 +26,8 @@ not take much space on the screen. On the bigger screen navigation bar is expand
 are visible. 
 
 <p align="center">
-<img  width="411" height="520" src="https://github.com/sWrAAb/milestone_project_1/blob/master/assets/images/rmd1.png">          
-<img width="411" height="520" src="https://github.com/sWrAAb/milestone_project_1/blob/master/assets/images/rmd2.png">
+<img  width="411" height="480" src="https://github.com/sWrAAb/milestone_project_1/blob/master/assets/images/rmd1.png">          
+<img width="411" height="480" src="https://github.com/sWrAAb/milestone_project_1/blob/master/assets/images/rmd2.png">
 </p>
 
 
